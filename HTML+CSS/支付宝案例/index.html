@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script src=""></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .box{
+            width:955px;
+            height: 1420px;
+            margin:0 auto;
+            background: yellow;
+            display: flex;
+            /* 纵轴竖向排列 */
+            flex-direction: column;
+        }
+        header{
+            height:124px;
+            background:#232939;
+            display:flex;
+        }
+        .iconfont{
+            width:118px;
+            height:124px;
+            line-height:124px;
+            text-align: center;
+            font-size: 48px;
+            color: #fff;
+        }
+        .text{
+            flex: 1;
+            height: 124px;
+            line-height: 124px;
+            font-size: 40px;
+            color:#fff;
+        }
+
+    
+        footer{
+            height:128px;
+            background:gray;
+        }
+        section{
+            flex:1;
+        }
+
+        .main{
+            display:flex;
+            height: 278px;
+            background:#232939;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .main div{
+            width:120px;
+            height:160px;
+            background: #232939;
+            display:flex;
+            flex-direction: column;
+            justify-content:space-between;
+        }
+        .main div .iconfont{
+            font-size: 100px;
+            text-align: center;
+        }
+        .main div .wenzi{
+            font-size:30px;
+            text-align: center;
+            color:white;
+        }
+
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            background:white;
+        }
+        .list div{
+            width:25%;
+            height:238px;
+            border:1px solid black;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .list div .iconfont{
+            height:77px;
+            line-height: 77px;
+            text-align: center;
+            color: black;
+            font-size:55px;
+        }
+        .list div .text-xs{
+            height:61px;
+            text-align: center;
+            font-size:30px;
+            line-height: 61px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <!-- 语义化标签 -->
+        <header>
+            <span class="iconfont icon-xiangqingzhangdan"></span>
+            <span class="text">账单</span>
+            <span class="iconfont icon-anquan"></span>
+            <span class="iconfont icon-fangdajing"></span>
+            <span class="iconfont icon-tianjia"></span>
+
+        </header>
+        <section>
+            <div class="main">
+                <div>
+                    <span class="iconfont icon-saoyisao1"></span>
+                    <span class="wenzi">扫一扫</span>
+                </div>
+                <div>
+                    <span class="iconfont icon-zhifubaozhifu"></span>
+                    <span class="wenzi">付款</span>
+                </div>
+                <div>
+                    <span class="iconfont icon-kabao"></span>
+                    <span class="wenzi">卡券</span>
+                </div>
+                <div>
+                    <span class="iconfont icon-xiuxishi"></span>
+                    <span class="wenzi">扫一扫</span>
+                </div>
+            </div>
+            <div class="list">
+                <div>
+                    <span class="iconfont icon-xiuxishi"></span>
+                    <span class="text-xs">信用卡还款</span>
+                </div>
+                <div>
+                    <span class="iconfont icon-saoyisao"></span>
+                    <span class="text-xs">信用卡还款</span>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </section>
+        <footer></footer>
+    </div>
+</body>
+</html>

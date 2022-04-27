@@ -1,0 +1,79 @@
+{
+  "id": "3186003",
+  "name": "mytext",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8149090",
+      "name": "休息室",
+      "font_class": "xiuxishi",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "6553927",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "7596851",
+      "name": "24gf-portraitMaleInfo3",
+      "font_class": "24gf-portraitMaleInfo3",
+      "unicode": "eb29",
+      "unicode_decimal": 60201
+    },
+    {
+      "icon_id": "12184883",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "17343755",
+      "name": "详情账单",
+      "font_class": "xiangqingzhangdan",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "5324389",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "5324397",
+      "name": "支付宝支付",
+      "font_class": "zhifubaozhifu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "11372643",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e8ab",
+      "unicode_decimal": 59563
+    },
+    {
+      "icon_id": "11372672",
+      "name": "卡包",
+      "font_class": "kabao",
+      "unicode": "e8b1",
+      "unicode_decimal": 59569
+    },
+    {
+      "icon_id": "11372685",
+      "name": "扫一扫",
+      "font_class": "saoyisao1",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    }
+  ]
+}

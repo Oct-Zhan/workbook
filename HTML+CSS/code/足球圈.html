@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+         }
+         ul{
+             list-style: none;
+         }
+         html,body{
+             height: 100%;
+         }
+
+         html{
+             font-size:16px;
+         }
+
+         body{
+             display:flex;
+             flex-direction: column;
+         }
+         header{
+            height:44px;
+            background: #0cc40c;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+         }
+         header div{ 
+             width:60px;
+             height:25px;
+             line-height: 25px;
+             text-align: center;
+             font-size: 12px;
+         }
+         header div:nth-child(1){
+             border-radius:12px 0 0 12px;
+             background:#69d985;
+             color: white;
+         }
+         header div:nth-child(2){
+             border-radius:0 12px 12px 0;
+             background:#3dd066;
+             color: #a9e4b4;
+         }
+         section{
+            flex:1;
+            /* 溢出滚动 */
+            overflow: auto;
+         }
+         section ul{
+             display:flex;
+             position: sticky;
+             top: 0px;
+             background:white;
+             
+         }
+         section ul li{
+             flex:1;
+             text-align:center;
+             height:35px;
+             line-height:35px;
+             border-bottom: 1px solid #d9d9d9;
+             color: #8c8c8c;
+         }
+         section ul li:hover{
+             border-bottom: 2px solid #08c63e;
+             color:#08c63e
+         }
+         section .list{
+             display:flex;
+             flex-wrap: wrap;
+             justify-content:space-between;
+         }
+         section .list>div{
+             width:49%;
+             margin-top:4px;
+             border:1px solid gray;
+         }
+         section .list>div img{
+             width:100%;
+         }
+         section .list>div p{
+             height:30px;
+             line-height:30px;
+             font-size:12px;
+             text-indent: 10px;
+         }
+         footer{
+             height:44px;
+             background:white;
+         }
+         footer ul{
+             display:flex;
+             height:100%;
+         }
+         footer li{
+             height:100%;
+             flex:1;
+             display:flex;
+             flex-direction:column;
+             justify-content:center;
+         }
+         footer li:hover{
+             color:#08ca43;
+         }
+         footer li .iconfont{
+             height:21px;
+             font-size:22px;
+             line-height: 21px;
+             text-align: center;
+         }
+         footer li .text{
+             height:17px;
+             font-size:10px;
+             text-align: center;
+            line-height:21px;
+         }
+         footer li:nth-child(3){
+             position: relative;
+         }
+         footer li:nth-child(3) .iconfont{
+             width:50px;
+             height: 50px;
+             border:1px solid gray;
+             border-radius: 50%;
+             position:absolute;
+             background:white;
+             left:50%;
+             margin-left: -25px;
+             top:-8px;
+             font-size:30px;
+             text-align:center;
+             line-height:50px;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <div>热点</div>
+        <div>关注</div>
+    </header>
+    <section>
+        <ul>
+            <li>足球现场</li>
+            <li>足球生活</li>
+            <li>足球美女</li>
+        </ul>
+        <div class="list">
+            <div>
+                <img src="gtimg.jpg" alt="">
+                <p>樱桃小丸子</p>
+            </div>
+            <div>
+                <img src="gtimg.jpg" alt="">
+                <p>樱桃小丸子</p>
+            </div>
+            <div>
+                <img src="gtimg.jpg" alt="">
+                <p>樱桃小丸子</p>
+            </div>
+            <div>
+                <img src="gtimg.jpg" alt="">
+                <p>樱桃小丸子</p>
+            </div>
+            <div>
+                <img src="gtimg.jpg" alt="">
+                <p>樱桃小丸子</p>
+            </div>
+            <div>
+                <img src="gtimg.jpg" alt="">
+                <p>樱桃小丸子</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <span class="iconfont icon-shouye"></span>
+                <span class="text">首页</span>
+            </li>
+            <li>
+                <span class="iconfont icon-sousuo"></span>
+                <span class="text">搜索</span>
+            </li>
+            <li>
+                <span class="iconfont icon-app"></span>
+            </li>
+            <li>
+                <span class="iconfont icon-yonghu"></span>
+                <span class="text">用户</span>
+            </li>
+            <li>
+                <span class="iconfont icon-gengduo"></span>
+                <span class="text">更多</span>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        img{
+            display: block;
+        }
+        .box{
+            width:350px;
+            margin:0 auto;
+            border:5px solid red;
+            position: relative;
+        }
+        img,p,h2{
+          transition:all 1s;  
+        }
+        .box .pic{
+            width: 100%;
+        }
+        .box:hover .pic{
+            transform: translateY(-20px);
+            opacity: 0.5;
+        }
+
+        .box h2{
+            position:absolute;
+            left:60px;
+            top:100px;
+            color: white;
+            transform: translateY(-200px);
+        }
+
+        .box:hover h2{
+            transform: translateY(0px);
+        }
+
+        .box p{
+            position:absolute;
+            bottom: 0px;
+            left:80px;
+            transform: translateY(30px);
+            opacity: 0;
+        }
+
+        .box:hover p{
+            transform: translateY(-80px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img class="pic" src="img/03.jpg" alt="">
+        <h2>title</h2>
+        <p class="p1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatum odit, iste, 
+            quibusdam error ab commodi nesciunt modienim saepe, 
+            veritatis ea earum quam? Quod consequuntur cupiditate quisquam excepturi impedit placeat?
+        </p>
+        <img>
+    </div>
+</body>
+</html>

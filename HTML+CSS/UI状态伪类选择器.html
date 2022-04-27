@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:enabled{
+            background:red;
+        }
+        input:disabled{
+            background:blue;
+        }
+        /* 焦点匹配选择器 */
+        input:focus{
+            background:yellow;
+        }
+        input[type=checkbox]{
+            /* 去掉默认样式 */
+          appearance:none;
+          width:20px;
+          height:20px;
+          border:1px solid black;
+        }
+        input:checked{
+            background:red;
+        }
+        /* 选中之后的背景色 */
+        div::selection{
+            background:yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <from action="">
+        用户名<input type="text"><br>
+        密码<input type="password"><br>
+        记住用户名<input type="checkbox"><br>
+        <input type="submit">
+    </from>
+
+
+    <div>lorem</div>
+</body>
+</html>
